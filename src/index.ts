@@ -5,6 +5,8 @@ import { transformRemoveBookmarks } from './transform/bookmark';
 import { transformLists } from './transform/list';
 import { transformRemoveLineNumberWrapper } from './transform/line-number';
 import { transformMsoHtmlClasses } from './transform/html-classes';
+import { transformGDocsStyles } from './transformGDocs/styleGDocs';
+import { transformGDocsLists } from './transformGDocs/listsGDocs';
 
 const OfficePaste = Extension.create({
     priority: 99999,
@@ -25,6 +27,10 @@ const OfficePastePlugin = new Plugin({
                 html = transformMsoStyles(html);
                 html = transformMsoHtmlClasses(html);
                 html = transformRemoveLineNumberWrapper(html);
+            }
+            if (html.indexOf('docs-internal-guid') !== -1){
+                html = transformGDocsLists(html);
+                html = transformGDocsStyles(html);
             }
             return html;
         }

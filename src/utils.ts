@@ -10,11 +10,15 @@ export function parseRomanNumber(roman: string): number {
     let i = roman.length;
     let lastVal = 0;
     while (i--) {
+        //@ts-ignore
         if (values[roman.charAt(i)] >= lastVal) {
+            //@ts-ignore
             value += values[roman.charAt(i)];
         } else {
+            //@ts-ignore
             value -= values[roman.charAt(i)];
         }
+        //@ts-ignore
         lastVal = values[roman.charAt(i)];
     }
 
@@ -58,6 +62,7 @@ export function unwrapNode(node: Node): void {
  * @returns {Object}
  */
 export function parseStyleAttribute(el: Element): { [prop: string]: string } {
+    //@ts-ignore
     const styleRaw: string = el?.attributes[`style`]?.value || ``;
     return Object.fromEntries(styleRaw.split(`;`).map(line => line.split(`:`).map(v => v.trim())));
 }
