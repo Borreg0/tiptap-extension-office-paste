@@ -6,19 +6,15 @@
 export function parseRomanNumber(roman: string): number {
     roman = roman.toUpperCase();
     let value = 0;
-    const values = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+    const values: Record<string, number> = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
     let i = roman.length;
     let lastVal = 0;
     while (i--) {
-        //@ts-ignore
         if (values[roman.charAt(i)] >= lastVal) {
-            //@ts-ignore
             value += values[roman.charAt(i)];
         } else {
-            //@ts-ignore
             value -= values[roman.charAt(i)];
         }
-        //@ts-ignore
         lastVal = values[roman.charAt(i)];
     }
 

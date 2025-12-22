@@ -1,5 +1,5 @@
 # Tiptap office paste extension
-This extension fixes format of text copied from MS Office and pasted into the [Tiptap](https://tiptap.dev/) editor. 
+This extension fixes format of text copied from MS Office and/or Google Docs and pasted into the [Tiptap](https://tiptap.dev/) editor. 
 
 ## Installing
 ```
@@ -7,6 +7,8 @@ npm i --save @intevation/tiptap-extension-office-paste
 ```
 
 ## Features
+
+# MS Office
 * Fixes lists
   * Convertes mso lists into actual html lists
   * Corrects list levels
@@ -15,6 +17,15 @@ npm i --save @intevation/tiptap-extension-office-paste
 * Removes `<o:p>` tags
 * Converts `mso` styles
 * Removes black text color style
+
+# Google Docs
+* Cleans lists
+  * Respects lists' nesting levels
+  * Removes redundant and/or repeated tags
+  * Parses list type and rebuilds it accordingly
+* Respects original formatting style
+* Replaces `<br>`, `&nbsp;`, `\u00A0` tags for blank spaces respecting document's structure
+* Removes only redundant styles like `color:rgb(0, 0, 0);`
 
 ## Usage
 ```javascript

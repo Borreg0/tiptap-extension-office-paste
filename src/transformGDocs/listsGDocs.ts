@@ -11,24 +11,23 @@ export function transformGDocsLists(html: string): string {
         const arialevel: string = el.getAttribute("aria-level")!;
         if (!arialevel) {
             while (+arialevel > listStack.length) {
-                    const newList = createListElement(el);
-                    if (listStack.length > 0) {
-                        listStack[listStack.length - 1].appendChild(newList);
-                    } else {
-                        el.before(newList);
-                    }
-                    listStack.push(newList);
+                const newList = createListElement(el);
+                if (listStack.length > 0) {
+                    listStack[listStack.length - 1].appendChild(newList);
+                } else {
+                    el.before(newList);
                 }
-                while (+arialevel < listStack.length) {
-                    listStack.pop();
-                }}
-            if (listStack.length) {
-                listStack[listStack.length - 1].appendChild(getListItemFromParagraph(el));
-                el.remove()
-            } 
+                listStack.push(newList);
+            }
+            while (+arialevel < listStack.length) {
+                listStack.pop();
+            }
         }
-        
-    );
+        if (listStack.length) {
+            listStack[listStack.length - 1].appendChild(getListItemFromParagraph(el));
+            el.remove()
+        }
+    })
     return doc.documentElement.outerHTML;
 }
 
@@ -64,13 +63,13 @@ function createListElement(el: HTMLElement): HTMLElement {
 function getListInfo(prefix: string): { type: string; start: number; countType: string | null } {
     switch (prefix) {
         case "decimal":
-            return { type: "ol", start: 1, countType: "1"  };
+            return { type: "ol", start: 1, countType: "1" };
         case "lower-alpha":
-            return { type: "ol",  start: 1, countType: "a" };
+            return { type: "ol", start: 1, countType: "a" };
         case "upper-roman":
-            return { type: "ol", start: 1, countType: "I"  };
+            return { type: "ol", start: 1, countType: "I" };
         case "lower-roman":
-            return {type: "ol", start: 1, countType: "i"}
+            return { type: "ol", start: 1, countType: "i" }
         default:
             return { type: "ul", start: 1, countType: null };
     }
