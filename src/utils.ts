@@ -58,7 +58,6 @@ export function unwrapNode(node: Node): void {
  * @returns {Object}
  */
 export function parseStyleAttribute(el: Element): { [prop: string]: string } {
-    //@ts-ignore
-    const styleRaw: string = el?.attributes[`style`]?.value || ``;
-    return Object.fromEntries(styleRaw.split(`;`).map(line => line.split(`:`).map(v => v.trim())));
+    const styleRaw = (el?.attributes as any)[`style`]?.value || ``;
+    return Object.fromEntries(styleRaw.split(`;`).map((line: string) => line.split(`:`).map((v: string) => v.trim())));
 }
