@@ -1,13 +1,6 @@
 import { parseLetterNumber, parseRomanNumber, parseStyleAttribute } from "../utils";
 
-export function transformLists(html: string): string {
-    if (html.indexOf(`mso-list:`) === -1) {
-        return html;
-    }
-
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, `text/html`);
-
+export function transformLists(doc: Document): void {
     let listStack: HTMLElement[] = [];
     let currentListId: string;
     const listElements = doc.querySelectorAll(`p[style*="mso-list:"]`);
@@ -40,8 +33,6 @@ export function transformLists(html: string): string {
         listStack[listStack.length - 1].appendChild(getListItemFromParagraph(el));
         el.remove();
     });
-
-    return doc.documentElement.outerHTML;
 }
 
 function hasNonListItemSibling(el: HTMLElement): boolean {

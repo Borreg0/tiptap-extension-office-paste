@@ -1,7 +1,4 @@
-export function transformGDocsStyles(html: string): string {
-    html = html.replace(/(&nbsp;|\u00A0|<br>)/g, " ");
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
+export function transformGDocsStyles(doc: Document): void {
     doc.querySelectorAll<HTMLElement>("[style]").forEach((node) => {
         const el = node as HTMLElement;
         if (!el.style.color) return;
@@ -12,5 +9,7 @@ export function transformGDocsStyles(html: string): string {
             el.style.removeProperty("background-color")
         }
     });
-    return doc.documentElement.outerHTML;
+    doc.querySelectorAll("br").forEach((node) => {
+        node.remove()
+    })
 }

@@ -1,8 +1,6 @@
 import { parseStyleAttribute, unwrapNode } from "../utils";
 
-export function transformRemoveBookmarks(html: string): string {
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, `text/html`);
+export function transformRemoveBookmarks(doc: Document): void {
     const bookmarks = doc.querySelectorAll(`[style*="mso-bookmark:"]`);
     bookmarks.forEach(node => {
         const bookmark = parseStyleAttribute(node)[`mso-bookmark`];
@@ -12,6 +10,4 @@ export function transformRemoveBookmarks(html: string): string {
         }
         unwrapNode(node as HTMLElement);
     });
-
-    return doc.documentElement.outerHTML;
 }

@@ -1,9 +1,4 @@
-export function transformGDocsLists(html: string): string {
-    if (html.indexOf(`list-style-type:`) === -1) {
-        return html;
-    }
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, `text/html`);
+export function transformGDocsLists(doc: Document): void {
     let listStack: HTMLElement[] = [];
     const listElements = doc.querySelectorAll(`[style*="list-style-type:"]`);
     listElements.forEach(node => {
@@ -28,7 +23,6 @@ export function transformGDocsLists(html: string): string {
             el.remove()
         }
     })
-    return doc.documentElement.outerHTML;
 }
 
 function getListItemFromParagraph(el: HTMLElement): HTMLElement {

@@ -22,15 +22,26 @@ const OfficePastePlugin = new Plugin({
     props: {
         transformPastedHTML(html: string): string {
             if (html.indexOf(`microsoft-com`) !== -1 && html.indexOf(`office`) !== -1) {
-                html = transformLists(html);
-                html = transformRemoveBookmarks(html);
-                html = transformMsoStyles(html);
-                html = transformMsoHtmlClasses(html);
-                html = transformRemoveLineNumberWrapper(html);
+                html = html.replace(/<o:p>(.*?)<\/o:p>/g, ``);
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, `text/html`);
+                if (html.indexOf(`mso-list:`) !== -1) {
+                    transformLists(doc);
+                }
+                transformRemoveBookmarks(doc);
+                transformMsoStyles(doc);
+                transformMsoHtmlClasses(doc);
+                transformRemoveLineNumberWrapper(doc);
             }
             if (html.indexOf('docs-internal-guid') !== -1){
-                html = transformGDocsLists(html);
-                html = transformGDocsStyles(html);
+                html = html.replace(/(&nbsp;|\u00A0)/g, "");
+                const parser = new DOMParser();
+                let doc = parser.parseFromString(html,"text/html")
+                if (html.indexOf(`list-style-type:`) !== -1) {
+                    transformGDocsLists(doc);
+                }
+                transformGDocsStyles(doc);
+                return doc.documentElement.outerHTML
             }
             return html;
         }
