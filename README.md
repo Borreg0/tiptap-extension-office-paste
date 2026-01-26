@@ -26,6 +26,13 @@ npm i --save @intevation/tiptap-extension-office-paste
 * Respects original formatting style
 * Replaces `<br>`, `&nbsp;`, `\u00A0` tags for blank spaces respecting document's structure
 * Removes only redundant styles like `color:rgb(0, 0, 0);`
+  
+# Apple Pages
+* Cleans lists
+  * Respects lists' nesting levels
+  * Removes redundant and/or repeated tags
+  * Parses list type and rebuilds it accordingly
+* Respects the original formatting style
 
 ## Usage
 ```javascript
@@ -34,7 +41,8 @@ import OfficePaste from "@intevation/tiptap-extension-office-paste";
 const editor = Editor({
     extensions: [
         StarterKit,
-        OfficePaste
+        OfficePaste,
+        BackgroundColor
     ]
 });
 ```

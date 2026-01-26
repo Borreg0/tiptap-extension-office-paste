@@ -33,10 +33,10 @@ const OfficePastePlugin = new Plugin({
                 transformMsoHtmlClasses(doc);
                 transformRemoveLineNumberWrapper(doc);
             }
-            if (html.indexOf('docs-internal-guid') !== -1){
+            if (html.indexOf('docs-internal-guid') !== -1) {
                 html = html.replace(/(&nbsp;|\u00A0)/g, "");
                 const parser = new DOMParser();
-                let doc = parser.parseFromString(html,"text/html")
+                let doc = parser.parseFromString(html, "text/html")
                 if (html.indexOf(`list-style-type:`) !== -1) {
                     transformGDocsLists(doc);
                 }
