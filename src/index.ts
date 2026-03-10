@@ -32,6 +32,7 @@ const OfficePastePlugin = new Plugin({
                 transformMsoStyles(doc);
                 transformMsoHtmlClasses(doc);
                 transformRemoveLineNumberWrapper(doc);
+                html = doc.documentElement.outerHTML;
             }
             if (html.indexOf('docs-internal-guid') !== -1) {
                 html = html.replace(/(&nbsp;|\u00A0)/g, "");
@@ -41,7 +42,7 @@ const OfficePastePlugin = new Plugin({
                     transformGDocsLists(doc);
                 }
                 transformGDocsStyles(doc);
-                return doc.documentElement.outerHTML
+                html = doc.documentElement.outerHTML
             }
             return html;
         }

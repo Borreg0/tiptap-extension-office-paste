@@ -29,22 +29,8 @@ const editor = new Editor({
           key: new PluginKey('get-paste-paste'),
           props: {
             transformPastedHTML(html: string): string {
-              //This respects the existing background-color if it's not transparent.
               const doc = document.createElement('div');
               doc.innerHTML = html;
-              const elementsBGcolor = doc.querySelectorAll('[style*="background-color"]');
-              elementsBGcolor.forEach((element) => {
-                const htmlElement = element as HTMLElement;
-                const backgroundColor = htmlElement.style.backgroundColor;
-                if (backgroundColor && backgroundColor != "transparent") {
-                  const range = document.createRange();
-                  range.selectNode(htmlElement);
-                  const span = document.createElement('span');
-                  span.style.backgroundColor = backgroundColor;
-                  span.appendChild(range.extractContents());
-                  range.insertNode(span);
-                }
-              });
               document.querySelector(`.input-html`)!.textContent = format(doc.innerHTML);
               return doc.innerHTML;
             }
