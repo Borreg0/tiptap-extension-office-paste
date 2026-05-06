@@ -1,0 +1,41 @@
+
+<meta charset="utf-8"><ul
+  style="margin-top:0;margin-bottom:0;padding-inline-start:48px;"
+  id="docs-internal-guid-bfc9a71c-7fff-0829-456f-74974642c20e"><li dir="ltr"
+    style="list-style-type:disc;font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;"
+    aria-level="1"><p dir="ltr"
+      style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;"
+      role="presentation"><span
+        style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">I
+        think it&nbsp;</span></p></li><ul
+    style="margin-top:0;margin-bottom:0;padding-inline-start:48px;"><li
+      dir="ltr"
+      style="list-style-type:circle;font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;"
+      aria-level="2"><p dir="ltr"
+        style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;"
+        role="presentation"><span
+          style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">would
+          be great&nbsp;</span></p></li><ul
+      style="margin-top:0;margin-bottom:0;padding-inline-start:48px;"><li
+        dir="ltr"
+        style="list-style-type:square;font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;"
+        aria-level="3"><p dir="ltr"
+          style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;"
+          role="presentation"><span
+            style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">if
+            Obsidian developers&nbsp;</span></p></li><ul
+        style="margin-top:0;margin-bottom:0;padding-inline-start:48px;"><li
+          dir="ltr"
+          style="list-style-type:disc;font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;"
+          aria-level="4"><p dir="ltr"
+            style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;"
+            role="presentation"><span
+              style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">convert&nbsp;</span></p></li><ul
+          style="margin-top:0;margin-bottom:0;padding-inline-start:48px;"><li
+            dir="ltr"
+            style="list-style-type:circle;font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;"
+            aria-level="5"><p dir="ltr"
+              style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;"
+              role="presentation"><span
+                style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">this
+                plugin&nbsp;</span></p></li></ul></ul></ul></ul></ul>

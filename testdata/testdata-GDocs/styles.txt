@@ -1,0 +1,45 @@
+<meta charset="utf-8"><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"
+  id="docs-internal-guid-bb05ac51-7fff-a6b9-7417-737299c9d62a">For this to
+</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:#ff9900;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">work
+  in the texts the texts need to be processed to parse</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">
+  those tags and </span>
+
+
+
+  <!---------------------------- background color and strikethrought >
+
+  <meta charset="utf-8"><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"
+  id="docs-internal-guid-4a6360f1-7fff-7bb5-3d07-7daa98081369">I hope that the
+  plugin </span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:line-through;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">author
+  will continue to </span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:#38761d;font-weight:400;font-style:normal;font-variant:normal;text-decoration:line-through;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">maintain</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:#38761d;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">
+  and update</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">
+</span>
+
+
+
+  <!---------------------------- background color, italics, bold, underline, color >
+
+  <meta charset="utf-8"><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:#00ffff;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"
+  id="docs-internal-guid-57041604-7fff-63d6-c8da-5eddd959c0be">request
+  the</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:#00ffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">
+  titles of these entries</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:#00ffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">
+</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:#00ffff;font-weight:700;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">via
+  single requests on</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:#00ffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">
+</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#ff0000;background-color:#00ffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">the
+  autoupdate</span><span
+  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">.
+</span>
