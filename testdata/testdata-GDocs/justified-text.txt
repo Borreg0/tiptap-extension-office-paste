@@ -1,8 +1,8 @@
-<meta charset="utf-8"><br
-  id="docs-internal-guid-e6a1d99d-7fff-a17f-8f9c-bd2801413df4"><p dir="ltr"
-  style="line-height:1.38;margin-left: 36pt;text-align: justify;margin-top:0pt;margin-bottom:0pt;"><span
-    style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Das
-    für die Erkrankungen verantwortliche Virus konnte später identifiziert
-    werden und wurde nach dem koreanischen Fluss benannt. Die zahlreichen
-    Hantavirus-Typen unterscheiden sich in ihrer geografischen Verbreitung sowie
-    im Krankheitsbild und ihrer Todesrate.</span></p><br>
+<meta charset="utf-8">
+<p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;" id="docs-internal-guid-eef3f987-7fff-3557-7908-cdaa16057573">
+  <span style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">White cold drink</span>
+</p>
+<br />
+<p dir="ltr" style="line-height:1.38;margin-left: 36pt;text-align: justify;margin-top:0pt;margin-bottom:0pt;">
+  <span style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Das für die Erkrankungen verantwortliche Virus konnte später identifiziert werden und wurde nach dem Koreanischen Fluss benannt. Die zahlreichen Hantavirus-Typen unterscheiden sich in ihrer geografischen Verbreitung sowie im Krankheitsbild und ihrer Todesrate.</span>
+</p>

@@ -32,11 +32,7 @@ npm i --save @intevation/tiptap-extension-office-paste
 import OfficePaste from "@intevation/tiptap-extension-office-paste";
 
 const editor = Editor({
-    extensions: [
-        StarterKit,
-        OfficePaste,
-        BackgroundColor
-    ]
+  extensions: [StarterKit, OfficePaste],
 });
 ```
 

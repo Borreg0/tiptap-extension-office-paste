@@ -36,6 +36,7 @@ const editor = new Editor({
             key: new PluginKey("get-paste-paste"),
             props: {
               transformPastedHTML(html: string): string {
+                console.log(prettify(html))
                 document.querySelector(`.input-html`)!.textContent = prettify(html);
                 return html;
               },

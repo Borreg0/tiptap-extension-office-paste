@@ -1,30 +1,27 @@
-<meta charset="utf-8"><p dir="ltr"
-  style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;"
-  id="docs-internal-guid-2dd62eec-7fff-f3e2-960c-1332742bb3d1"><span
-    style="font-size:26pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.</span><span
-    style="font-size:26pt;font-family:'Times New Roman',serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp;
-    &nbsp; </span><span
-    style="font-size:26pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Punto
-    cuatro</span></p><p dir="ltr"
-  style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:16pt;"><span
-    style="font-size:15pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1
-    Lorem ipsum dolor sit amd</span></p><h1 dir="ltr"
-  style="line-height:1.38;margin-top:20pt;margin-bottom:6pt;"><span
-    style="font-size:20pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1
-    Auf einem Kreuzfahrtschiff sind mehrere&nbsp;</span></h1><h2 dir="ltr"
-  style="line-height:1.38;margin-top:18pt;margin-bottom:6pt;"><span
-    style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1
-    Was ist das? Wie steckt man sich mit dem Erreger an?&nbsp;</span></h2><h3
-  dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;"><span
-    style="font-size:13.999999999999998pt;font-family:Arial,sans-serif;color:#434343;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1.1
-    Und kann man sich auch in Deutschland mit dem Virus
-    infizieren?</span></h3><h4 dir="ltr"
-  style="line-height:1.38;margin-top:14pt;margin-bottom:4pt;"><span
-    style="font-size:12pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1.1.1
-    Menschen am Hantavirus gestorben.&nbsp;</span></h4><h5 dir="ltr"
-  style="line-height:1.38;margin-top:12pt;margin-bottom:4pt;"><span
-    style="font-size:11pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1.1.1.1
-    Wann wurde das Hantavirus entdeckt?</span></h5><h6 dir="ltr"
-  style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;"><span
-    style="font-size:11pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1.1.1.1.1
-    Während des Koreakriegs Anfang der 1950er-Jahre </span></h6>
+<meta charset="utf-8">
+<p dir="ltr" style="line-height:1.38;margin-top:0pt;margin-bottom:0pt;" id="docs-internal-guid-432d8929-7fff-7a4b-0448-3449ad427196">
+  <span style="font-size:26pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.</span>
+  <span style="font-size:26pt;font-family:'Times New Roman',serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">&nbsp; &nbsp;</span>
+  <span style="font-size:26pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">Punto cuatro</span>
+</p>
+<p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:16pt;">
+  <span style="font-size:15pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1 Lorem ipsum dolor sit amd</span>
+</p>
+<h1 dir="ltr" style="line-height:1.38;margin-top:20pt;margin-bottom:6pt;">
+  <span style="font-size:20pt;font-family:Arial,sans-serif;color:#000000;background-color:#b45f06;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1 Auf einem Kreuzfahrtschiff sind mehrere&nbsp;</span>
+</h1>
+<h2 dir="ltr" style="line-height:1.38;margin-top:18pt;margin-bottom:6pt;">
+  <span style="font-size:16pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1 Was ist das? Wie steckt man sich mit dem Erreger an?&nbsp;</span>
+</h2>
+<h3 dir="ltr" style="line-height:1.38;margin-top:16pt;margin-bottom:4pt;">
+  <span style="font-size:13.999999999999998pt;font-family:Arial,sans-serif;color:#434343;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1.1 Und kann man sich auch in Deutschland mit dem Virus infizieren?</span>
+</h3>
+<h4 dir="ltr" style="line-height:1.38;margin-top:14pt;margin-bottom:4pt;">
+  <span style="font-size:12pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1.1.1 Menschen am Hantavirus gestorben.&nbsp;</span>
+</h4>
+<h5 dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:4pt;">
+  <span style="font-size:11pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1.1.1.1 Wann wurde das Hantavirus entdeckt?</span>
+</h5>
+<h6 dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">
+  <span style="font-size:11pt;font-family:Arial,sans-serif;color:#666666;background-color:transparent;font-weight:400;font-style:italic;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">4.1.1.1.1.1.1.1 Während des Koreakriegs Anfang der 1950er-Jahre</span>
+</h6>
