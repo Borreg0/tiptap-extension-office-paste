@@ -1,14 +1,19 @@
-import './style.css'
-import { Editor, Extension } from '@tiptap/core'
-import StarterKit from '@tiptap/starter-kit'
-import OfficePaste from '@intevation/tiptap-extension-office-paste'
-import { Plugin, PluginKey } from '@tiptap/pm/state';
-import { Table, TableRow, TableCell, TableHeader } from '@tiptap/extension-table';
-import { Color, TextStyle, BackgroundColor } from '@tiptap/extension-text-style';
-import format from "html-format";
+import "./style.css";
+import { Editor, Extension } from "@tiptap/core";
+import StarterKit from "@tiptap/starter-kit";
+import OfficePaste from "@intevation/tiptap-extension-office-paste";
+import { Plugin, PluginKey } from "@tiptap/pm/state";
+import {
+  Table,
+  TableRow,
+  TableCell,
+  TableHeader,
+} from "@tiptap/extension-table";
+import { Color, TextStyle } from "@tiptap/extension-text-style";
+import { prettify } from "htmlfy";
 
 const editor = new Editor({
-  element: document.querySelector('.editor')!,
+  element: document.querySelector(".editor")!,
   extensions: [
     OfficePaste,
     TextStyle,
@@ -18,26 +23,27 @@ const editor = new Editor({
     TableHeader,
     Table,
     StarterKit,
-    BackgroundColor.configure({ types: ["textStyle"] }),
     Extension.create({
       priority: 100000,
       onUpdate: () => {
-        document.querySelector(`.output-html`)!.textContent = format(editor.getHTML());
+        document.querySelector(`.output-html`)!.textContent = prettify(
+          editor.getHTML(),
+        );
       },
       addProseMirrorPlugins() {
-        return [new Plugin({
-          key: new PluginKey('get-paste-paste'),
-          props: {
-            transformPastedHTML(html: string): string {
-              const doc = document.createElement('div');
-              doc.innerHTML = html;
-              document.querySelector(`.input-html`)!.textContent = format(doc.innerHTML);
-              return doc.innerHTML;
-            }
-          }
-        })];
-      }
-    })
+        return [
+          new Plugin({
+            key: new PluginKey("get-paste-paste"),
+            props: {
+              transformPastedHTML(html: string): string {
+                document.querySelector(`.input-html`)!.textContent = prettify(html);
+                return html;
+              },
+            },
+          }),
+        ];
+      },
+    }),
   ],
-  content: '',
-})
+  content: "<p>Hello World!</p>",
+});
