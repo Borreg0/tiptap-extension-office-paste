@@ -1,9 +1,23 @@
-<meta charset="utf-8"><span
-  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;"
-  id="docs-internal-guid-ec8a7329-7fff-4b11-32c9-d2e007780dd4">wurde nach
-</span><a href="https://de.wikipedia.org/wiki/Koreanische_Sprache"
-  style="text-decoration:none;"><span
-    style="font-size:12pt;font-family:Arial,sans-serif;color:#1155cc;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">dem
-    koreanischen</span></a><span
-  style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">
-  Fluss benannt.</span>
+<meta charset="utf-8">
+<ol style="margin-top:0;margin-bottom:0;padding-inline-start:48px;" id="docs-internal-guid-7619c8f4-7fff-475b-3448-3b592647d404">
+  <li dir="ltr" style="list-style-type:decimal;font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="1">
+    <p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+      <span style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">so many&nbsp;</span>
+    </p>
+  </li>
+  <ol style="margin-top:0;margin-bottom:0;padding-inline-start:48px;">
+    <li dir="ltr" style="list-style-type:lower-alpha;font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="2">
+      <p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+        <a href="https://en.wikipedia.org/wiki/People" style="text-decoration:none;">
+          <span style="font-size:12pt;font-family:Arial,sans-serif;color:#1155cc;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:underline;-webkit-text-decoration-skip:none;text-decoration-skip-ink:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">people</span>
+        </a>
+        <span style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">in&nbsp;</span>
+      </p>
+    </li>
+    <li dir="ltr" style="list-style-type:lower-alpha;font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;" aria-level="2">
+      <p dir="ltr" style="line-height:1.38;text-align: justify;margin-top:0pt;margin-bottom:0pt;" role="presentation">
+        <span style="font-size:12pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;">different areas.</span>
+      </p>
+    </li>
+  </ol>
+</ol>
